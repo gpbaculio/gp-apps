@@ -3,8 +3,9 @@ export const colors = {
   BRIGHT_BLUE: '#30DCED', // Bright blue for highlights and links
   BACKGROUND: '#FFFFFF', // Base background color
   WHITE: '#FFFFFF', // Neutral white
-  BLACK: '#000000', // Text or deep contrast
-  GOLD_YELLOW: '#DBAC2C', // Softened gold (Philippine flag yellow)
+  BLACK: '#1C1C1C', // Text or deep contrast
+  LIGHT_BLACK: '#4D4D4D',
+  GOLD_YELLOW: '#F2C94C', // Softened gold (Philippine flag yellow)
   FLAG_RED: '#E63946', // Softer red (Philippine flag red)
   FLAG_BLUE: '#0D47A1', // Softened dark blue (Philippine flag blue)
   NEUTRAL_GRAY: '#8D8686', // Neutral gray for balance
@@ -116,8 +117,20 @@ export const textVariants = {
     fontSize: 24,
     fontWeight: '700',
   },
+  fs32fw600: {
+    fontSize: 32,
+    fontWeight: '600',
+  },
   fs32fw700: {
     fontSize: 32,
+    fontWeight: '700',
+  },
+  fs36fw600: {
+    fontSize: 36,
+    fontWeight: '600',
+  },
+  fs40fw700: {
+    fontSize: 40,
     fontWeight: '700',
   },
 };

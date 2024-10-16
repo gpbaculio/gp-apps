@@ -2,6 +2,7 @@ import Feather from 'react-native-vector-icons/Feather';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import Entypo from 'react-native-vector-icons/Entypo';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import FontAwesome6 from 'react-native-vector-icons/FontAwesome6';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -35,6 +36,10 @@ export const DynamicFontAwesome = createContainer(
 type FontAwesome6Props = React.ComponentProps<typeof FontAwesome6>;
 export const DynamicFontAwesome6 = createContainer(
   createBox<Theme, FontAwesome6Props>(FontAwesome6),
+);
+type FontAwesome5Props = React.ComponentProps<typeof FontAwesome5>;
+export const DynamicFontAwesome5 = createContainer(
+  createBox<Theme, FontAwesome5Props>(FontAwesome5),
 );
 
 type IoniconsProps = React.ComponentProps<typeof Ionicons>;
