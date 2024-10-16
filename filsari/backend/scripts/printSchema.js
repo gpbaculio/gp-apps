@@ -5,7 +5,7 @@ const schema = require("../schema");
 
 const graphQLSchema = printSchema(schema);
 
-const schemaPath = path.join(__dirname, "../../GPCalHelp", "schema.graphql");
+const schemaPath = path.join(__dirname, "../../filsari", "schema.graphql");
 fs.writeFile(schemaPath, graphQLSchema, (err) => {
   if (err) {
     console.error("Error writing schema to file:", err);
